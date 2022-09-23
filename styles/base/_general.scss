@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    overflow: hidden;
+    background-color: #541554;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+}
+.gold {
+    color: gold;
+}
+.centertext {
+    text-align: center;
+}
+.grancolor {
+    color: #541554;
+    font-size: 56px;
+}
+.youtube {
+    display: flex;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    width: 100%;
+}
+.light {
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+.textosuelto {
+    margin: 2%;
+    font-size: 22px;
+}
+.lila {
+    background-color: #611F69;
+}
+.gris {
+    background-color: #C3BEB6;
+}
+ul {
+    width: 50%;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 32px;
+}
+li {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 45px;
+    
+}
+li:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+.blue {
+    color: darkblue;
+}
+span {
+    font-weight: 500;
+}
+button:hover {
+    cursor: pointer;
+}
