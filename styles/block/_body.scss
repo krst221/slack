@@ -230,6 +230,18 @@
         background-color: lightblue;
     }
 }
+.mano {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    bottom: 45px;
+    right: 60px;
+    height: 45px;
+    width: 45px;
+    z-index: 1;
+    background-color: #611F69;
+    border-radius: 5px;
+}
 .tw {
     align-self: center;
     width: 32px;

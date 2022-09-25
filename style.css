@@ -86,6 +86,10 @@ button:hover {
   cursor: pointer;
 }
 
+.hover {
+  cursor: pointer;
+}
+
 .iconbox__body {
   margin-top: 8%;
   margin-right: 15%;
@@ -323,6 +327,19 @@ button:hover {
   background-color: lightblue;
 }
 
+.mano {
+  display: flex;
+  position: fixed;
+  padding: 10px;
+  bottom: 45px;
+  right: 60px;
+  height: 45px;
+  width: 45px;
+  z-index: 1;
+  background-color: #611F69;
+  border-radius: 5px;
+}
+
 .tw {
   align-self: center;
   width: 32px;
@@ -485,7 +502,7 @@ button:hover {
   margin-right: 3%;
 }
 .bloquetexto__nav h1 {
-  font-size: 36px;
+  font-size: 44px;
   font-weight: 700;
 }
 .bloquetexto__nav p {
