@@ -55,7 +55,6 @@
 }
 .iconbox {
     z-index: 1;
-    margin-top: 33px;
     position: absolute;
     position: fixed;
     width: 100%;
@@ -67,7 +66,7 @@
     &__burger {
         width: 40px;
         object-fit: contain;
-        margin-right: 10%;
+        margin-right: 5%;
     }
     &__slack {
         margin-left: 5%;
@@ -76,7 +75,6 @@
     }
     &__desktop {
         z-index: 1;
-        margin-top: 40px;
         position: absolute;
         position: fixed;
         width: 100%;
@@ -104,15 +102,16 @@
         text-align: center;
         color: white;  
         background-color: #541554;
-        margin-left: 3%;
-        margin-top: 22%;
-        margin-right: 3%;
+        margin-left: 20px;
+        margin-top: 60px;
+        margin-right: 20px;;
         h1 {
             font-size: 44px;
             font-weight: 700;
         }
         p {
-            margin-top: 10px;
+            margin-top: 20px;
+            margin-bottom: 0px;;
             font-size: 16px;
         } 
     }
@@ -131,6 +130,7 @@
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 7%;
+    margin-right: 20px;
     background-color: rgb(101, 101, 187);         
     &__google {
         margin-top: 4%;
