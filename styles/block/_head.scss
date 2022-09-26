@@ -40,13 +40,14 @@
             &__1 {
                align-self: center;
                width: 30%;
-               display: inline-block;
+               display: flex;
+               justify-content: space-between;
             }
             &__2 {
                 align-self: center;
              }
             &__3 {
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 width: 50%;
              }
         }
@@ -75,7 +76,7 @@
     }
     &__desktop {
         z-index: 1;
-        margin-top: 33px;
+        margin-top: 40px;
         position: absolute;
         position: fixed;
         width: 100%;
